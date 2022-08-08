@@ -1,7 +1,11 @@
 # Journal Connect
 
-This was my first attempt at building a website from scratch using the MERN stack.
-## The project was split into two parts
-Client which is the front end of the website, and Server which is the api that the website calls upon.
-## Fully costomizable
-The website is fully customizable and I can constantly change and edit the website whenever 
+Journal Connect is a platform for users to write their journals and post it online anytime anywhere. 
+
+## Sharing
+
+You can let your peers read your journals and share your experiences with others by adding them as friends.
+
+## Fully Customizable posts
+
+Upload a photo to make your post look more interesting, you can edit your post whenever you want.
