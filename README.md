@@ -6,6 +6,6 @@ Journal Connect is a platform for users to write their journals and post it onli
 
 You can let your peers read your journals and share your experiences with others by adding them as friends.
 
-## Fully Customizable posts
+## Fully customizable posts
 
 Upload a photo to make your post look more interesting, you can edit your post whenever you want.
