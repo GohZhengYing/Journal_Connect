@@ -1,0 +1,318 @@
+.friends_navbar{
+    z-index: 3;
+    position: absolute;
+    width:100%;
+    height:70px;
+    background-color: rgb(238, 154, 57);
+    -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+    box-shadow: 3px -25px 23px 22px #000000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.friends_navbar_logo{
+position:relative;
+height:40px;
+width:1200px;
+display: flex;
+}
+.friends_navbar_logo img{
+    height:40px;
+}
+.friends_navbar_settings{
+    position: absolute;
+    top:30%;
+    right:10%;
+}
+.friends_navbar_settings i{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:white;
+    font-size: 1.5rem;
+    padding:0px;
+    margin:0px;
+}
+.friends_navbar_dropdown{
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
+    background-color: aliceblue;
+}
+.friends_navbar_dropdown a{
+    padding-top:5px;
+    padding-bottom: 10px;
+    width:100%;
+    text-decoration: none;
+    color:black;
+}
+.friends_navbar_dropdown a:hover{
+    background-color: #a39f9f;
+}
+.friends_navbar_dropdown button{
+    width:70px;
+}
+.friends_navbar_settings:hover .friends_navbar_dropdown{
+        display:flex;
+        z-index: 3;
+}
+@media only screen and (max-width:1250px){
+    .friends_navbar{
+        z-index: 3;
+        position: absolute;
+        width:100%;
+        height:70px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .friends_navbar_logo{
+    position:relative;
+    height:40px;
+    width:900px;
+    display: flex;
+    }
+    .friends_navbar_logo img{
+        height:40px;
+    }
+    .friends_navbar_settings{
+        position: absolute;
+        top:30%;
+        right:10%;
+    }
+    .friends_navbar_settings i{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .friends_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:300px;
+        background-color: aliceblue;
+    }
+    .friends_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .friends_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .friends_navbar_dropdown button{
+        width:70px;
+    }
+    .friends_navbar_settings:hover .friends_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+}
+@media only screen and (max-width:1000px){
+    .friends_navbar{
+        z-index: 3;
+        position: absolute;
+        width:100%;
+        height:70px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .friends_navbar_logo{
+    position:relative;
+    height:40px;
+    width:680px;
+    display: flex;
+    }
+    .friends_navbar_logo img{
+        height:40px;
+    }
+    .friends_navbar_settings{
+        position: absolute;
+        top:30%;
+        right:10%;
+    }
+    .friends_navbar_settings i{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .friends_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:300px;
+        background-color: aliceblue;
+    }
+    .friends_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .friends_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .friends_navbar_dropdown button{
+        width:70px;
+    }
+    .friends_navbar_settings:hover .friends_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+}
+@media only screen and (max-width:780px){
+    .friends_navbar{
+        z-index: 3;
+        position: absolute;
+        width:100%;
+        height:70px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .friends_navbar_logo{
+    position:relative;
+    height:30px;
+    width:380px;
+    display: flex;
+    }
+    .friends_navbar_logo img{
+        height:30px;
+    }
+    .friends_navbar_settings{
+        position: absolute;
+        top:15%;
+        right:10%;
+    }
+    .friends_navbar_settings i{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .friends_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:150px;
+        background-color: aliceblue;
+    }
+    .friends_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .friends_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .friends_navbar_dropdown button{
+        width:70px;
+    }
+    .friends_navbar_settings:hover .friends_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+}
+@media only screen and (max-width:480px){
+    .friends_navbar{
+        z-index: 3;
+        position: absolute;
+        width:100%;
+        height:70px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .friends_navbar_logo{
+    position:relative;
+    height:25px;
+    width:330px;
+    display: flex;
+    }
+    .friends_navbar_logo img{
+        height:25px;
+    }
+    .friends_navbar_settings{
+        position: absolute;
+        top:10%;
+        right:10%;
+    }
+    .friends_navbar_settings i{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.2rem;
+        padding:0px;
+        margin:0px;
+    }
+    .friends_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:150px;
+        background-color: aliceblue;
+    }
+    .friends_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .friends_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .friends_navbar_dropdown button{
+        width:70px;
+    }
+    .friends_navbar_settings:hover .friends_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+}

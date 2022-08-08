@@ -1,0 +1,104 @@
+.my_friends{
+    padding-top:20px;
+    padding-bottom:30px;
+    width:410px;
+    height:700px;
+    background-color: rgb(231, 218, 195);
+    border:2px solid rgb(238, 154, 57);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    -ms-overfloe-style:none;
+    scrollbar-width: none;
+
+}
+.my_friends::-webkit-scrollbar{
+    display:none;
+}
+.friend{
+    position:relative;
+    height:60px;
+    width:400px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-bottom:5px;
+    padding:5px;
+    padding-left: 15px;
+    border:2px solid rgb(238, 154, 57);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 1.4rem;
+}
+.friend p{
+    padding:0px;
+    margin-top:0px;
+    font-size: 0.9rem;
+}
+.friend i{
+    position:absolute;
+    font-size: 1.4rem;
+    right:20px;
+    top:30%;
+}
+.friend i:hover{color: rgb(255, 166, 0);}
+
+@media only screen and (max-width:1250px){}
+@media only screen and (max-width:1000px){}
+@media only screen and (max-width:780px){}
+@media only screen and (max-width:480px){
+    .my_friends{
+        padding-top:20px;
+        padding-bottom:30px;
+        width:310px;
+        height:500px;
+        background-color: rgb(231, 218, 195);
+        border:2px solid rgb(238, 154, 57);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+        -ms-overfloe-style:none;
+        scrollbar-width: none;
+    
+    }
+    .my_friends::-webkit-scrollbar{
+        display:none;
+    }
+    .friend{
+        position:relative;
+        height:40px;
+        width:300px;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        box-sizing: border-box;
+        margin-bottom:5px;
+        padding:3px;
+        padding-left: 15px;
+        border:2px solid rgb(238, 154, 57);
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 0.7rem;
+    }
+    .friend p{
+        padding:0px;
+        margin-top:0px;
+        font-size: 0.7rem;
+    }
+    .friend i{
+        position:absolute;
+        font-size: 1rem;
+        right:20px;
+        top:30%;
+    }
+    .friend i:hover{color: rgb(255, 166, 0);}
+}

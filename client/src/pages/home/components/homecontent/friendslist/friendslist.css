@@ -1,0 +1,135 @@
+.friends_list{
+    position:relative;
+    z-index: 1;
+    width:200px;
+    height:60%;
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border:2px solid rgb(238, 154, 57);
+}
+.friends_list_button{
+    position:absolute;
+    bottom:10px;
+    width:100px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(255, 176, 7);
+    border: none;
+    border-radius: 10px;
+}
+.friends_list_button:hover{
+    background-color: rgb(219, 134, 37);
+}
+.friends_list_title{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2rem;
+}
+.main_list{
+    background-color: rgb(231, 218, 195);
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    width:190px;
+    height: 390px;
+    padding:3px;
+    margin-bottom: 10px;
+    border-top: 2px solid rgb(238, 154, 57);
+    border-bottom: 2px solid rgb(238, 154, 57);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.main_list_friend{
+    border:none;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(238, 154, 57);
+    width:190px;
+    padding:10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.main_list_friend:hover{
+    background-color: rgb(253, 230, 186);
+}
+.main_list::-webkit-scrollbar {
+    display: none;
+  }
+@media only screen and (max-width:1250px){
+    .friends_list{
+        position:relative;
+        z-index: 1;
+        width:200px;
+        height:60%;
+        background-color: rgb(250, 250, 250);
+        box-sizing: border-box;
+        margin-top: 25px;
+        padding-top: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        border:2px solid rgb(238, 154, 57);
+    }
+    .friends_list_button{
+        position:absolute;
+        bottom:7px;
+        width:80px;
+        font-size: 0.8rem;
+        color: white;
+        background-color: rgb(255, 176, 7);
+        border: none;
+        border-radius: 10px;
+    }
+    .friends_list_button:hover{
+        background-color: rgb(219, 134, 37);
+    }
+    .friends_list_title{
+        font-family: 'Albert Sans', sans-serif;
+        font-size: 2rem;
+    }
+    .main_list{
+        background-color: rgb(231, 218, 195);
+        margin-top: 15px;
+        display:flex;
+        flex-direction: column;
+        width:190px;
+        height: 390px;
+        padding:3px;
+        margin-bottom: 10px;
+        border-top: 2px solid rgb(238, 154, 57);
+        border-bottom: 2px solid rgb(238, 154, 57);
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .main_list_friend{
+        border:none;
+        background-color: rgb(255, 255, 255);
+        border:1px solid rgb(238, 154, 57);
+        width:190px;
+        padding:10px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main_list_friend:hover{
+        background-color: rgb(253, 230, 186);
+    }
+    .main_list::-webkit-scrollbar {
+        display: none;
+      }
+}
+@media only screen and (max-width:1000px){}
+@media only screen and (max-width:780px){}
+@media only screen and (max-width:480px){
+    
+}

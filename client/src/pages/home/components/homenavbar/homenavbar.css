@@ -1,0 +1,373 @@
+.home_navbar{
+    z-index: 3;
+    position: relative;
+    width:100%;
+    height:70px;
+    margin: 0px;
+    background-color: rgb(238, 154, 57);
+    -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+    box-shadow: 3px -25px 23px 22px #000000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home_navbar_logo{
+    position: relative;
+    height:40px;
+    width:1200px;
+    display: flex;
+}
+.home_navbar_logo img{
+    height:40px;
+}
+.home_navbar_settings{
+    position: absolute;
+    top:30%;
+    right: 10%;
+
+}
+.home_navbar_settings i{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:white;
+    font-size: 1.5rem;
+    padding:0px;
+    margin:0px;
+}
+.home_navbar_dropdown{
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
+    background-color: aliceblue;
+}
+.home_navbar_dropdown a{
+    padding-top:5px;
+    padding-bottom: 10px;
+    width:100%;
+    text-decoration: none;
+    color:black;
+}
+.home_navbar_dropdown a:hover{
+    background-color: #a39f9f;
+}
+.home_navbar_settings:hover .home_navbar_dropdown{
+        display:flex;
+        z-index: 3;
+}
+.home_navbar_name{
+    position: relative;
+    height:40px;
+    width:680px;
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width:1250px){
+    .home_navbar{
+        z-index: 3;
+        position: relative;
+        width:100%;
+        height:70px;
+        margin: 0px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .home_navbar_logo{
+        position: relative;
+        height:35px;
+        width:900px;
+        display: flex;
+    }
+    .home_navbar_logo img{
+        height:35px;
+    }
+    .home_navbar_settings{
+        position: absolute;
+        top:30%;
+        right: 10%;
+    
+    }
+    .home_navbar_settings i{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .home_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:200px;
+        background-color: aliceblue;
+    }
+    .home_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .home_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .home_navbar_settings:hover .home_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+    .home_navbar_name{
+        position: relative;
+        height:40px;
+        width:380px;
+        color:rgb(255, 255, 255);
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1000px){
+    .home_navbar{
+        z-index: 3;
+        position: relative;
+        width:100%;
+        height:70px;
+        margin: 0px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .home_navbar_logo{
+        position: relative;
+        height:30px;
+        width:750px;
+        display: flex;
+    }
+    .home_navbar_logo img{
+        height:30px;
+    }
+    .home_navbar_settings{
+        position: absolute;
+        top:30%;
+        right: 10%;
+    
+    }
+    .home_navbar_settings i{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .home_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:200px;
+        background-color: aliceblue;
+    }
+    .home_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .home_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .home_navbar_settings:hover .home_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+    .home_navbar_name{
+        position: relative;
+        height:30px;
+        width:300px;
+        color:rgb(255, 255, 255);
+        font-size: 1.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:780px){
+    .home_navbar{
+        z-index: 3;
+        position: relative;
+        width:100%;
+        height:70px;
+        margin: 0px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .home_navbar_logo{
+        position: relative;
+        height:20px;
+        width:450px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .home_navbar_logo img{
+        height:20px;
+    }
+    .home_navbar_settings{
+        position: absolute;
+        top:30%;
+        right: 5%;
+    
+    }
+    .home_navbar_settings i{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.5rem;
+        padding:0px;
+        margin:0px;
+    }
+    .home_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:150px;
+        background-color: aliceblue;
+    }
+    .home_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .home_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .home_navbar_settings:hover .home_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+    .home_navbar_name{
+        position: relative;
+        height:20px;
+        width:180px;
+        color:rgb(255, 255, 255);
+        margin-left: -30px;
+        font-size: 1.1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:480px){
+    .home_navbar{
+        z-index: 3;
+        position: relative;
+        width:100%;
+        height:70px;
+        margin: 0px;
+        background-color: rgb(238, 154, 57);
+        -webkit-box-shadow: 3px -25px 23px 22px #000000; 
+        box-shadow: 3px -25px 23px 22px #000000;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .home_navbar_logo{
+        position: relative;
+        height:20px;
+        width:330px;
+        display: flex;
+        justify-content: center;
+    }
+    .home_navbar_logo img{
+        height:20px;
+        display: none;
+    }
+    .home_navbar_settings{
+        position: absolute;
+        top:30%;
+        right: 5%;
+    
+    }
+    .home_navbar_settings i{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color:white;
+        font-size: 1.2rem;
+        padding:0px;
+        margin:0px;
+    }
+    .home_navbar_dropdown{
+        z-index: 3;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:150px;
+        background-color: aliceblue;
+    }
+    .home_navbar_dropdown a{
+        padding-top:5px;
+        padding-bottom: 10px;
+        width:100%;
+        text-decoration: none;
+        color:black;
+    }
+    .home_navbar_dropdown a:hover{
+        background-color: #a39f9f;
+    }
+    .home_navbar_settings:hover .home_navbar_dropdown{
+            display:flex;
+            z-index: 3;
+    }
+    .home_navbar_name{
+        position: relative;
+        height:20px;
+        width:180px;
+        color:rgb(255, 255, 255);
+        font-size: 1.1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
